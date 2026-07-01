@@ -2,10 +2,13 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div>
+   <>
+    <div id="container">
       <h1>HELLO, WORLD!</h1>
       <h2>Welcome to my React App</h2>
     </div>
+    <div id ="container2"></div>
+   </>
   )
 }
 

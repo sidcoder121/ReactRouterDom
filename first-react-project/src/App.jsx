@@ -1,4 +1,5 @@
 import React from 'react'
+import card from './components/card'
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <h2>Welcome to my React App</h2>
     </div>
     <div id ="container2"></div>
+    {card()} 
    </>
   )
 }

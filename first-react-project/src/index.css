@@ -12,3 +12,17 @@ body{
   height: 100%;
   background-color: #0f172a;
 }
+
+#container{
+  background-color: pink;
+  border-radius: 10px;
+  margin: 20px ;
+  padding: 20px;
+}
+
+.card{
+  background-color: red;
+  border-radius: 10px;
+  margin: 20px ;
+  padding: 20px;
+}

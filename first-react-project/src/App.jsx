@@ -1,17 +1,15 @@
 import React from 'react'
-import card from './components/card'
-import Navbar from './components/Navbar'
+import Card from './components/card'
+
 
 const App = () => {
   return (
    <>
-    <Navbar/>
-    <div id="container">
-      <h1>HELLO, WORLD!</h1>
-      <h2>Welcome to my React App</h2>
-    </div>
-    <div id ="container2"></div>
-    {card()} 
+   <div className='parent'>
+    <Card user="Siddharth Saxena" img="https://st2.depositphotos.com/3643473/86157/i/450/depositphotos_861571742-stock-photo-figure-talking-mobile-phone-business.jpg"/>
+    <Card user="John Doe" img="https://images.unsplash.com/photo-1698758004450-1f9da080f9b4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDQyfENEd3V3WEpBYkV3fHxlbnwwfHx8fHw%3D"/>
+   </div>
+  
    </>
   )
 }

@@ -1,12 +1,15 @@
-function card() {
+import React from 'react'
 
-    const user = "Siddharth saxena";
+const card = (props) => {
+  
   return (
-    <div className="card">
-      <h2>Hi I am {user}</h2>
-      <p>This is a simple card component.</p>
+     <div className='card'>
+      <img src={props.img}></img>
+      <h1>{props.user}</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <button>View Profile</button>
     </div>
-  );
+  )
 }
 
-export default card;
+export default card

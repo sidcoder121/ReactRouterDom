@@ -1,9 +1,11 @@
 import React from 'react'
 import card from './components/card'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
    <>
+    <Navbar/>
     <div id="container">
       <h1>HELLO, WORLD!</h1>
       <h2>Welcome to my React App</h2>

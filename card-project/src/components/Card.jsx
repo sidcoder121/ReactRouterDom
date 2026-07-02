@@ -6,7 +6,7 @@ export const Card = () => {
    <div className="card">
         <div>
         <div className="top">
-          <img src="https://tse1.mm.bing.net/th/id/OIP.douAQqLQCydHXDqsPfOcpwHaEK?pid=Api&h=220&P=0" alt="amazon logo " />
+          <img src={}alt="amazon logo " />
           <button>Save <Bookmark size={12}/></button>
         </div>
         <div className="center">

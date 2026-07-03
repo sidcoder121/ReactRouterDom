@@ -1,7 +1,15 @@
 import React from 'react'
+import Button from './components/Button/Button.jsx'
+import Header from './components/Header/Header.jsx'
 
 export const App = () => {
   return (
-    <div>App</div>
+    <>
+    <Header/>
+    <Button/>
+   
+    </>
   )
 }
+
+export default App

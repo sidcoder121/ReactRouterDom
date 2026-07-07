@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
+
 
 export const  App= () => {
+  const [title, settitle] = useState('')
 
   const submitHandler=()=>{
-    console.log("Form Submiitted")
+    console.log("Form Submiitted",title)
+    settitle('')
   }
   return (
     <div>
@@ -11,7 +14,9 @@ export const  App= () => {
         e.preventDefault()
         submitHandler()
         }}>
-        <input type='text' placeholder='type something'></input>
+        <input type='text' placeholder='type something' value={title} onChange={(e)=>{
+          settitle(e.target.value)
+        }}></input>
         <button>Submit</button>
       </form>
     </div>

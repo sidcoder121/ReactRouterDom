@@ -1,8 +1,19 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 export const App = () => {
+
+  const [num, setnum] = useState(0)
+  useEffect(function(){
+    console.log('Use effect is running...')
+  })
+
   return (
-    <div>App</div>
+    <>
+    <h1>{num}</h1>
+   <button onClick={()=>{
+    setnum(10)
+   }}>click</button>
+   </>
   )
 }
 

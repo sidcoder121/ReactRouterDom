@@ -9,7 +9,7 @@ export const App = () => {
   }
   localStorage.setItem('user',JSON.stringify(user))
 
-  let get = localStorage.getItem('user')
+  let get = JSON.parse(localStorage.getItem('user'))
   console.log(get)
   return (
     <div>App</div>
